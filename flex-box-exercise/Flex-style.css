@@ -1,0 +1,99 @@
+.container {
+    border: 5px solid #ffcc5c;
+    display: flex;
+
+ }
+
+.search{
+flex:1;
+}
+ /*
+/* order
+
+.item1{
+order: 1 ;
+}
+
+.item2 {
+    order: 2 ;
+
+}
+.item3 {
+order: 3;
+}
+
+
+/*
+.home{
+  
+  flex:10 1 200px;
+}
+
+/*.logout{
+   
+}
+.search{
+    flex:1 1 200px;
+ }
+/*.container > div {
+    width: 300px;
+}
+   /* justify-content: center;
+   /* make the boarder 100% height
+    height: 100%;
+    /*to stretch the boarder and to
+     move the items in the box to the  
+    align-items: stretch;
+    align-items: flex-end;
+}*/
+/*
+.logout {
+    align-self: flex-start;
+}
+.search{
+    align-self: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* we can also just have just one of the
+ items strech more than the other item just by using 
+ only it's class i.e:.search that way it is the 
+ only item that grows twice its size .container> div{
+    flex:1;
+
+}*/
+/*.Search{
+    flex: 2;
+}
+.Home{
+    flex: 1;
+}
+.Logout{
+    flex: 1;
+}
+/* to override the .container>div tag selector
+ by just making the seacrh strech 
+ more than the other items
+.container> .search {
+    flex:2;
+}
+/*this makes the Logout box go to the left og the container.Logout{
+/*margin-left:auto;
+}*/
+/*this makes the Logout box go to the right og the container.Home{
+/*margin-right: auto;
+}*/
+
+/* to strech the search class twice as much as the other classes.container > .search{
+    flex:2;
+}

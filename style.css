@@ -1,0 +1,117 @@
+* {
+    box-sizing:border-box;
+}
+/* continaer*/
+body{
+    display: flex;
+    box-sizing:border-box;
+    background-color: #26018f;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: fixed;
+ 
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 800px;
+    /* border: 1px solid black;x solid blocke;*/
+    /*margin:auto;*/
+   /* margin-top : 50px;*/
+    box-shadow: 15px 15px 200px black;
+    /*"https://stackoverflow.com/questions/27177161/flexbox-curved-corners#:~:text=The%20issue%20is%20that%20the%20flexbox%20items%20are,
+    the%20border%20radius%20do
+    esn%27t%20apply%20on%20the%20ite
+    ms." 
+    to override the parent class flex The 
+    issue is that the flexbox items are
+    overflowing the parent element and therefore,
+     the border radius doesn't apply on the items.
+    To prevent them from overflowing their
+     parent, you need to add overflow:hidden; 
+    to the parent .wrap in the following example :*/
+    overflow: hidden;
+    border-radius: 25px;
+
+}
+
+/* Login Form*/
+.form{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    background-color:whitesmoke;
+}
+/* */
+.form h2{
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   /* margin: 40px;*/
+}
+.box{
+    /*padding: 12px;*/
+    width: 65%;
+   /* margin: 15px;*/
+    border:1rem solid rgb(221, 240, 11);
+    outline:none;
+    border: radius 20px;
+
+}
+#submit{
+   /* padding:12px 30px;*/
+    width:40%;
+    /*margin-top: 40px;*/
+    background-color: black;
+    color: white;
+    font-weight:bold;
+    border:none;
+    outline: none;
+    border-radius: 20px;
+
+
+}
+#submit:hover{
+    cursor:pointer;
+    background-color: #750000;
+
+}
+.form a{
+    text-decoration: none;
+    color:black;
+    /*margin-top:20px;*/
+
+}
+.icon{
+    /*margin: 10px 10px 10px 10px;*/
+    font-size:40px;
+}
+.form a:hover{
+    color: rgb(208, 211, 10);
+}
+.icon:hover{
+    color:rgb(225, 221, 17);
+}
+
+/* right side*/
+.side{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 50% ;
+    background-color:rgb(231, 182, 35) ;
+
+}
+.side img{
+    width: 10px;
+    height: 10px;
+    max-width: 50%;
+
+
+}
+
+#team{
+    z-index:5;
+}
