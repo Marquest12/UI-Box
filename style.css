@@ -1,11 +1,12 @@
 * {
     box-sizing:border-box;
 }
- continaer
+
 body  {
     display: flex;
     align-items: center;
     justify-content: center;
+    height:100vh;
 
 }
 
@@ -13,8 +14,8 @@ body  {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50;
-    width: 80;
+    height: 400px;
+    width: 400px;
     /* border: 1px solid black;x solid blocke;*/
     /*margin:auto;*/
    /* margin-top : 50px;*/
